@@ -1,0 +1,14 @@
+{
+  "name": "rotas",
+  "version": "1.0.0",
+  "description": "Navegando no código",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Henrique Martins Genesio",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.19.2"
+  }
+}

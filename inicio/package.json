@@ -1,0 +1,14 @@
+{
+  "name": "inicio",
+  "version": "1.0.0",
+  "description": "Iniciando variáveis.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Erro: não exite o teste especificado\" && saida 1"
+  },
+  "author": "João Henrique Martins Genesio",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

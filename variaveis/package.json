@@ -1,0 +1,16 @@
+{
+  "name": "variaveis",
+  "version": "1.0.0",
+  "description": "Diferença entre LET e VAR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Erro: teste não especificado\" && exit 1"
+  },
+  "author": "João Henrique Martins Genesio",
+  "license": "MIT",
+  "devDependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}

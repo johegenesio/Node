@@ -1,0 +1,20 @@
+md variaveis
+cd variaveis
+dir
+npm -v
+npm init
+cls
+dir
+code .
+cls
+npm install express --save-dev
+dir
+cls
+npm install express --save-dev
+cls
+dir
+npm install ejs --save-dev
+npm install nodemon --save-dev
+node index.js
+cls
+doskey /h >Comandos.txt

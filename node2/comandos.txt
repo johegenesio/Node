@@ -1,0 +1,16 @@
+md node2
+cd node2
+dir
+npm init -y
+code .
+dir
+npm install express
+dir
+npm install nodemon
+cls
+nodemon index
+node index
+nodemon index
+npm install bootstrap
+npm install ejs
+doskey /h>comandos.txt

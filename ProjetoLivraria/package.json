@@ -1,0 +1,19 @@
+{
+  "name": "projetolivraria",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon server.js"
+  },
+  "keywords": [
+    "livraria"
+  ],
+  "author": "João Henrique Martins Genesio",
+  "license": "MIT",
+  "description": "projeto da livraria",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
