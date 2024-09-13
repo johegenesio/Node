@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <form id="frmImc">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" step="0.01" required>
+        <label for="peso">Peso:</label>
+        <input type="number" name="peso" id="peso" step="0.01" required>
+        <label for="altura">Altura:</label>
+        <input type="number" name="altura" id="altura" step="0.01" required>
+        <input type="submit" value="Calcular">
+    </form>
+    <p id="print"></p>
+</body>
+<script type="module" src="js/main.js"></script>
+</html>
