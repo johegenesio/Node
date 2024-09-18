@@ -1,24 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora IMC</title>
 </head>
+
 <body>
-    <h1>Calcular IMC</h1>
-    <form id="formImc">
-        <label for="nome">Nome:</label>
-        <input type="text" name="nome" id="nome" step="0.01" required>
-        <label for="peso">Peso:</label>
-        <input type="number" name="peso" id="peso" step="0.01" required>
-        <label for="altura">Altura:</label>
-        <input type="number" name="altura" id="altura" step="0.01" required>
-        <input type="submit" value="Calcular">
-        <input type="button" value="Visualizar">
+    <form id="frmImc">
+        <label for="txtNome">Nome</label>
+        <input type="text" name="txtNome" id="txtNome" required>
+        <label for="nmbPeso">Peso</label>
+        <input type="number" name="nmbPeso" id="nmbPeso" step="0.01" required>
+        <label for="nmbAltura">Altura</label>
+        <input type="number" name="nmbAltura" id="nmbAltura" step="0.01" required>
+        <input type="submit" value="Calcular IMC">
     </form>
-    <section id="ImcDados">
-        
-    </section>
+    <table id="tabelaImc">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>IMC</th>
+                <th>Classificação</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os registros serão preenchidos aqui -->
+        </tbody>
+    </table>
+    <table id="tabelaRegistros">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Peso</th>
+                <th>Altura</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os registros serão preenchidos aqui -->
+        </tbody>
+    </table>
+    <script type="module" src="./js/main.js"></script>
 </body>
+
 </html>
